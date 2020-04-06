@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Slf4j
 public class Controller {
-    @Value("${soring.web.response:Hello World}")
+    @Value("${spring.web.response:Hello World}")
     private String hello;
 
     @GetMapping("/testing")
